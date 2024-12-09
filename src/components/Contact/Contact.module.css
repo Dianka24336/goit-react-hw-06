@@ -1,0 +1,23 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.delButton {
+  background-color: #fff;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delButton:hover,
+.delButton:focus {
+  background-color: lightskyblue;
+}
+
